@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center>
+        <h1 id="name"> <u> Personal Details </u></h1>
+    
+    <div style="width: 525px; height: 1020px;  border: 5px solid cyan; background-color: azure">
+
+        <table>
+
+            <td>
+
+            <form>
+
+                <div>
+                <label for="fname"> 1. Enter your First Name: </label>
+                <input type="text" id="fname" name="fname" placeholder="Type your First Name" style="width: 300px; height: 30px;" required>
+                </div>
+          
+                <br>
+
+                <div>
+                <label for="lname"> 2. Enter your Last Name: </label>
+                <input type="text" id="lname" name="lname" placeholder="Type your Last Name" style="width: 300px; height: 30px;" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="gender"> 3. Select your Gender: </label>
+
+                <input type="radio" id="gender" name="gender" value="male"> Male
+
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                </div>
+
+                <br>
+                
+                <div>
+                <label for="bd"> 3. Enter your Birth Date: </label>
+                <input type="date" id="bd" name="bd" style="width: 300px; height: 30px;" required>
+                </div>
+            
+                <br>
+
+                <div>
+                <label for="bmy"> 4. Enter your Birth Month and Year: </label>
+                <input type="month" id="bmy" name="bmy" style="width: 230px; height: 30px;" required>
+                </div>
+            
+                <br>
+
+                <div>
+                <label for="bt"> 5. Enter your Birth Time: </label>
+                <input type="time" id="bt" name="bt" style="width: 300px; height: 30px;" required>
+                </div>
+            
+                <br>       
+                
+                <div>
+                <label for="age"> 6. Enter your Age: </label>
+                <input type="range" id="age" name="age" style="width: 350px; height: 10px;" required min="1" max="100">
+                </div>
+                <br>
+
+                <div>
+                <label for="mnumber"> 7. Enter your Mobile Number: </label>
+                <input type="tel" id="mnumber" name="mnumber"  style="width: 260px; height: 30px;" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="family"> 8. Select the Number of Family Members: </label>
+                <input type="number" id="family" name="family" style="width: 180px; height: 30px;" min="1" max="99" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="email"> 9. Enter your E-Mail Address: </label>
+                <input type="email" id="email" name="email" style="width: 260px; height: 30px;" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="pass"> 10. Enter your Password: </label>
+                <input type="password" id="password" name="password" maxlength="20" style="width: 290px; height: 30px;"  required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="file"> 11. Upload your Birth Certificate: </label>
+                <input type="file" id="file" name="file" required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="week"> 12. Enter your Current Week and Year: </label>
+                <input type="week" id="week" name="week" style="width: 205px; height: 30px;"  required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="url"> 13. Enter your GitHub URL: </label>
+                <input type="url" id="url" name="url" placeholder="Enter your GitHub URL" style="width: 270px; height: 30px;"  required>
+                </div>
+
+                <br>
+
+                <div>
+                <label for="course"> 14. Select the Courses you Know: </label>
+                </div>
+
+                <br>
+
+                <div>
+                <input type="checkbox" id="course" name="course1" value="HTML"> 1. HTML
+                
+                <br>
+
+                <input type="checkbox" id="course" name="course2" value="CSS"> 2. CSS
+                
+                <br>
+
+                <input type="checkbox" id="course" name="course3" value="JS">
+                <label for="course"> 3. JS </label>
+                
+                <br>
+
+                <input type="checkbox" id="course" name="course4" value="JAVA">
+                <label for="course"> 4. JAVA </label>
+                </div>
+                
+                <br>
+
+                <div>
+                <label for="color"> 15. Choose your Favorite Color: </label>
+                <input type="color" id="color" name="color">
+                </div>
+
+                <br>
+
+                <div>
+                <input type="reset" id="reset" value="Reset">
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                
+                <input type="submit" id="submit" value="Submit">
+                </div>
+
+                <br>
+                
+                <div>
+                <input type="image" src="./personal-information.png" alt="Search" style="float:left" width="40" height="40">  
+                &nbsp; &nbsp;
+                <input type="search" name="search" id="search"placeholder="Search Anything Here..... " style="width: 300px; height: 30px; border-radius: 5px; border: 2px solid black;">
+                </div>
+
+                <br>
+                <br>
+
+                <div>
+                <a href="#name">
+                <input type="button" id="button" value="Back to Top">
+                </a>
+                </div>
+
+                <br>
+
+                <input type="hidden" id="hidden" name="hidden">
+
+            </form>
+
+        </td>
+
+
+        </table>
+                      
+
+
+
+    </div>
+ </center>
+</body>
+</html>
+
+
+<!--
+1. Text *
+2. Password * 
+3. Email*
+4. Number *
+5. Date *
+6. Checkbox *
+7. Radio *
+8. File *
+9. Image *
+10. Button *
+11. Submit *
+12. Reset *
+13. Hidden *
+14. Range *
+15. Color *
+16. Search *
+17. Url *
+18. Week *
+19. Month *
+20. Time *
+-->
