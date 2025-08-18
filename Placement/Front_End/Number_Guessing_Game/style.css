@@ -1,0 +1,119 @@
+/*index*/
+
+.body{
+    background-color: rgb(78, 90, 184);
+}
+
+.container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12%;
+    color: yellow;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+
+/*game*/
+
+.body1{
+    background-color: rgb(78, 90, 184);
+}
+
+.container1{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow; 
+    padding-top: 15%;
+}
+
+/* .guess{ */
+    /* border: 2px solid rgb(255, 0, 0); */
+/* } */
+
+.input{
+    /* border: 2px solid rgb(0, 255, 8); */
+    padding-top: 5%;
+}
+
+.submit{
+    margin-top: 1%;
+}
+
+/*win*/
+
+.win{
+    background-color: rgb(78, 90, 184);
+}
+
+.container2{
+    /* border: 2px solid rgb(0, 255, 8); */
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.win-msg{
+    /* border: 2px solid rgb(0, 255, 8); */
+    padding-top: 5%;
+    position: absolute;
+    font-size: 100px;
+}
+
+#win-1{
+    width: 800px;
+    height: 500px;
+}
+
+#win-2{
+    width: 800px;
+    height: 500px;
+    margin-top: -30%;
+}
+
+/*lose*/
+
+.lose{
+    background-color: rgb(78, 90, 184);
+}
+
+.container3{
+    /* border: 2px solid rgb(0, 255, 8); */
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.lose-msg {
+    /* border: 2px solid rgb(0, 255, 8); */
+    padding-top: 10%;
+    position: absolute;
+    font-size: 100px;
+}
+
+#lose-1 {
+    /* border: 2px solid rgb(0, 255, 8); */
+    width: 800px;
+    height: 600px;
+    margin-left: 20%;
+    opacity: 50%;
+}
+
+#try{
+    margin-top: 3%;
+    border-radius: 10%;
+    width: 10%;
+    background-color: aqua;
+}
