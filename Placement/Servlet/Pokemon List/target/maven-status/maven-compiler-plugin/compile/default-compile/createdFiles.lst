@@ -1,0 +1,6 @@
+com\example\PokemonDAO.class
+com\example\UpdPokemonServlet.class
+com\example\Pokemon.class
+com\example\AddPokemonServlet.class
+com\example\DelPokemonServlet.class
+com\example\ListPokemonServlet.class

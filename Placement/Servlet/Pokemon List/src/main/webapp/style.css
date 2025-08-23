@@ -1,0 +1,58 @@
+body{
+    /* border: 2px solid tomato; */
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+#button{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid springgreen; */
+    width: 300px;
+}
+
+button{
+    border-radius: 25%;
+    background-color: rgb(103, 237, 242);
+}
+
+#add{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+#list{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+#del{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+
+#upd{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
